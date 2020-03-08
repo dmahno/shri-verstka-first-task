@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  -webkit-align-items: stretch;
+  align-items: center;
+  height: 50px;
+  justify-content: space-between;
+}
+.header__content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.header__content-button {
+  display: flex;
+  align-items: center;
+  button {
+    &:first-child {
+      margin-right: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 991px) {
+  header {
+    padding: 0 16px;
+  }
+}

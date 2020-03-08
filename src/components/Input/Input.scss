@@ -1,0 +1,33 @@
+.form-list {
+  display: flex;
+  flex-direction: column;
+}
+.required {
+  &:after {
+    color: red;
+    content: '*';
+  }
+}
+.input__control {
+  border: 2px solid #d9d9d9;
+  border-radius: 4px;
+  color: var(--color-text);
+  &:focus {
+    border: 2px solid var(--color-borded-focused);
+  }
+}
+.input_size_m {
+  padding-left: 15px;
+  height: 36px;
+  font-size: 16px;
+  max-width: 100%;
+}
+.input_theme_normal {
+  padding: 8px 0;
+}
+.input_width_small {
+  width: 30px;
+  margin: 0 15px;
+  text-align: right;
+  padding: 0 10px;
+}

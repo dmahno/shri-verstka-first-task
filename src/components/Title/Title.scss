@@ -1,0 +1,10 @@
+.header__title {
+  color: var(--color-text-thirdly);
+  font-size: 24px;
+  font-weight: var(--medium);
+}
+@media screen and (max-width: 480px) {
+  .header__title {
+    font-size: 18px;
+  }
+}

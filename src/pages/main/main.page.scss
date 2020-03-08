@@ -1,0 +1,20 @@
+.main-page__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 32px - 50px);
+  .main-page__block {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main-page__block-content-text {
+    margin: 30px 0 25px 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-page__content {
+    height: calc(100vh - 68px - 50px);
+  }
+}

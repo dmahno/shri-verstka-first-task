@@ -1,0 +1,10 @@
+.time-meta {
+  border: none;
+}
+@media only screen and (max-width: 768px) {
+  .time-meta {
+    display: flex;
+    border-top: 1px solid #f0f2f3;
+    padding-top: 8px;
+  }
+}
