@@ -30,11 +30,13 @@
 
 :root {
   //colors
+  --color-bg-base: #fff;
   --color-bg-footer: #f0f2f3;
   --color-bg-action: #fc0;
   --color-bg-action-hovered: #f2c200;
   --color-bg-control-hovered: #dbdbdb;
   --color-bg-control: #e6e6e6;
+  --color-bg-heavy: #d9d9d9;
   --color-text: #000;
   --color-text-secondary: #595959;
   --color-text-thirdly: #7f8285;
@@ -58,14 +60,15 @@
 }
 body {
   font-family: 'YS Text';
-  background-color: var(--default);
+  background-color: var(--color-bg-base);
   font-size: 16px;
   line-height: 26px;
   margin: 0;
   padding: 0;
 }
-main {
-  min-height: calc(100vh - 32px - 50px);
+main,
+.content {
+  min-height: calc(100vh - 32px - 60px);
   max-width: 900px;
   margin: 0 auto;
   overflow: auto;
@@ -107,9 +110,54 @@ ul {
   color: var(--orange);
 }
 
+//modifiers indents, sizes
+
+//margin
+.margin-top-8 {
+  margin-top: 8px;
+}
+.margin-bottom-8 {
+  margin-bottom: 8px;
+}
+.margin-right-15 {
+  margin-right: 15px;
+}
+.margin_right_8 {
+  margin-right: 8px;
+}
+//padding
+.padding_right_8 {
+  padding-right: 8px;
+}
+.padding-top-bottom-12 {
+  padding: 12px 0;
+}
+//flexes
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+//modifier colors
+.color-text-thirdly {
+  color: var(--color-text-thirdly);
+}
+.color-text {
+  color: var(--color-text);
+}
+
 @media screen and (max-width: 480px) {
   main {
-    min-height: calc(100vh - 68px - 50px);
+    min-height: calc(100vh - 68px - 60px);
   }
   body {
     font-size: 13px;

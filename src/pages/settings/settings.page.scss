@@ -1,15 +1,17 @@
-.settings-page__content.form {
-  max-width: 500px;
-  margin-top: 20px;
-}
-.form-content__title {
-  font-weight: bold;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-.form-content__sub-title {
-  color: var(--color-text-thirdly);
-}
-.form-fields {
-  margin-top: 10px;
+.content {
+  &__form {
+    max-width: 500px;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  &__form-buttons {
+    button {
+      &:first-child {
+        margin-right: 8px;
+      }
+    }
+  }
 }
