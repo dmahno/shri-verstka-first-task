@@ -19,22 +19,24 @@ function Card({
 }) {
   return (
     <div className='card'>
-      <CardSatus cardStatus={cardStatus} />
       <div className='card__data'>
-        <div className='card__user-information'>
-          <CardTitle
-            cardTitle={cardTitle}
-            colorNumber={colorNumber}
-            titleNumber={titleNumber}
-          />
-          <CardUserMeta
-            brunchName={brunchName}
-            commitNumber={commitNumber}
-            userName={userName}
-          />
-        </div>
-        <div className='card__user-information'>
-          <CardTimeMeta date={date} time={time} />
+        <CardSatus cardStatus={cardStatus} />
+        <div className='card__content-meta'>
+          <div className='card__title-user-meta'>
+            <CardTitle
+              cardTitle={cardTitle}
+              colorNumber={colorNumber}
+              titleNumber={titleNumber}
+            />
+            <CardUserMeta
+              brunchName={brunchName}
+              commitNumber={commitNumber}
+              userName={userName}
+            />
+          </div>
+          <div className='card__time-meta'>
+            <CardTimeMeta date={date} time={time} />
+          </div>
         </div>
       </div>
     </div>

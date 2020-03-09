@@ -3,11 +3,11 @@ import './CardTitle.scss';
 
 function CardTitle({ colorNumber, titleNumber, cardTitle }) {
   return (
-    <div className='card__title'>
-      <span className={`card__title number ${colorNumber}`}>
+    <div className='card-title'>
+      <span className={`card-title__number ${colorNumber}`}>
         &#35;{titleNumber}
       </span>
-      <span className='card__title text'>{cardTitle}</span>
+      <span className='card-title__text'>{cardTitle}</span>
     </div>
   );
 }

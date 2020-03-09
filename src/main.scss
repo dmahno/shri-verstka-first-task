@@ -68,7 +68,7 @@ body {
 }
 main,
 .content {
-  min-height: calc(100vh - 32px - 60px);
+  min-height: calc(100vh - 52px - 60px);
   max-width: 900px;
   margin: 0 auto;
   overflow: auto;
@@ -113,17 +113,23 @@ ul {
 //modifiers indents, sizes
 
 //margin
-.margin-top-8 {
+.margin_top_8 {
   margin-top: 8px;
 }
-.margin-bottom-8 {
+.margin_bottom_8 {
   margin-bottom: 8px;
 }
-.margin-right-15 {
+.margin_top_12 {
+  margin-top: 12px;
+}
+.margin_right_15 {
   margin-right: 15px;
 }
 .margin_right_8 {
   margin-right: 8px;
+}
+.margin_left_8 {
+  margin-left: 8px;
 }
 //padding
 .padding_right_8 {

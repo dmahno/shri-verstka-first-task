@@ -3,7 +3,7 @@ import './CardSatus.scss';
 
 function CardSatus({ cardStatus }) {
   return (
-    <div className='card__status'>
+    <div className='card-status'>
       <i className={`icon ${cardStatus}`}></i>
     </div>
   );

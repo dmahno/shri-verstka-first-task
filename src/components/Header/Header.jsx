@@ -61,7 +61,7 @@ class Header extends Component {
               <Button
                 icon={header[0].buttonIcon[0]}
                 classNameElement='button_size_xs'
-                classNameModifier='button_view button_size_small'
+                classNameModifier='button_view button_size_small margin_left_8'
               />
             ) : null}
           </div>

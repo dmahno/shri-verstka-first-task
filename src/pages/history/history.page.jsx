@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './history.page.scss';
 import Card from '../../components/Card/Card';
 import CARD_DATA from '../../components/Card/CardData';
 import Button from '../../components/Button/Button';
@@ -15,7 +14,7 @@ class History extends Component {
   render() {
     const { cards } = this.state;
     return (
-      <div className='app-root history-page__content'>
+      <div className='content'>
         {cards.map(({ titleNumber, ...otherCollectionProps }) => (
           <Card
             key={titleNumber}

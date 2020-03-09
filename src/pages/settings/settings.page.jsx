@@ -31,7 +31,7 @@ function Settings() {
           <Button
             classNameModifierSize='button_size_n'
             classNameElement='button_theme_islands'
-            classNameModifier='button_view_action margin_right_8'
+            classNameModifier='button_view_action'
             name='Save'
           />
           <Button
