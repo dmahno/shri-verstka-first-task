@@ -1,16 +1,5 @@
-.time-meta {
-  border: none;
-  &__time {
-    margin-top: 12px;
-  }
-}
 @media only screen and (max-width: 768px) {
   .time-meta {
-    display: flex;
     border-top: 1px solid #f0f2f3;
-    padding-top: 8px;
-    &__time {
-      margin-top: 0px;
-    }
   }
 }

@@ -14,7 +14,7 @@ class History extends Component {
   render() {
     const { cards } = this.state;
     return (
-      <div className='content'>
+      <>
         {cards.map(({ titleNumber, ...otherCollectionProps }) => (
           <Card
             key={titleNumber}
@@ -27,7 +27,7 @@ class History extends Component {
           name='Show more'
           classNameModifier='button_view'
         />
-      </div>
+      </>
     );
   }
 }

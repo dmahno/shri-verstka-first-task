@@ -8,7 +8,7 @@ function Input({
   type = 'text',
   width = 'input_width_normal',
   afterText = '',
-  modifierFlex = 'flex-column',
+  modifierFlex = 'flex_column',
   modifierInputTheme = 'input_theme_normal'
 }) {
   return (

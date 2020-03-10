@@ -7,7 +7,7 @@ function Settings() {
   return (
     <form className='content__form'>
       <div className='content__title'>Settings</div>
-      <div className='content__sub-title color-text-thirdly'>
+      <div className='content__sub-title color_text_thirdly'>
         Configure repository connection and synchronization settings.
       </div>
       <div className='content__form-fields'>
@@ -22,16 +22,16 @@ function Settings() {
           label='Synchronize every '
           placeholder='10'
           width='input_width_small'
-          modifierFlex='flex-row'
+          modifierFlex='flex_row'
           afterText='minuties'
           modifierInputTheme='input_theme_big'
         />
 
-        <div className='content__form-buttons'>
+        <div className='content__form-buttons flex_column_mobile margin_right_8_button padding_top_bottom_8'>
           <Button
             classNameModifierSize='button_size_n'
             classNameElement='button_theme_islands'
-            classNameModifier='button_view_action'
+            classNameModifier='button_view_action margin_bottom_8_mobile '
             name='Save'
           />
           <Button

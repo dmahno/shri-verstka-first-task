@@ -3,8 +3,8 @@ import './BuildLogArea.scss';
 
 function BuildLogArea({ main = '{main}' }) {
   return (
-    <div className='build__log'>
-      <div className='log-content'>
+    <div className='build-log'>
+      <div className='build-log__content'>
         <pre>
           <p>Starting type checking and linting service...</p>
           <p>Using 1 worker with 2048MB memory limit</p>
