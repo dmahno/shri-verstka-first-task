@@ -6,12 +6,12 @@ function CardUserMeta({ brunchName, commitNumber, userName }) {
     <div className='user-meta'>
       <div className='user-meta__branches'>
         <i className='icon code-commit'></i>
-        <span className='user-meta__branches-name'>{brunchName}</span>
-        <span className='user-meta__commit-number'>{commitNumber}</span>
+        <div className='user-meta__branches-name'>{brunchName}</div>
+        <div className='user-meta__commit-number'>{commitNumber}</div>
       </div>
       <div className='user-meta__user-info'>
         <i className='icon user'></i>
-        <span className='user-meta__user-info-name'>{userName}</span>
+        <div className='user-meta__user-info-name'>{userName}</div>
       </div>
     </div>
   );

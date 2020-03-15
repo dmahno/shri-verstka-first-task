@@ -19,10 +19,13 @@
   &__content-meta {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
     i {
       opacity: 0.3;
     }
+  }
+  &__title-user-meta {
+    max-width: 80%;
   }
 }
 @media only screen and (max-width: 768px) {

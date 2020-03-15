@@ -1,4 +1,7 @@
 .card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   &__number {
     font-size: 22px;
     padding-right: 5px;
