@@ -4,7 +4,7 @@ import './assets/icons.scss';
 import Main from './pages/main/main.page';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import { Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Settings from './pages/settings/settings.page';
 import History from './pages/history/history.page';
 import Details from './pages/details/details.page';
@@ -19,10 +19,10 @@ class App extends Component {
         <main>
           <Router history={history}>
             <Switch>
-              <Route exact path='/' component={Main} />
-              <Route path='/settings' component={Settings} />
-              <Route path='/history' component={History} />
-              <Route path='/details' component={Details} />
+              <Link path='/' component={Main} />
+              <Link path='/settings' component={Settings} />
+              <Link path='/history' component={History} />
+              <Link path='/details' component={Details} />
             </Switch>
           </Router>
         </main>
